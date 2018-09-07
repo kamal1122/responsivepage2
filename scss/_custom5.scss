@@ -3,12 +3,11 @@
 @import 'bootstrap';
 @import 'bootstrap.min.css';
 $blue: red;
-$font-stack:Helvetica, sans-serif;
+$font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 html,body {
   font: 100% $font-stack;
    background-color: $primary-color;
-   overflow-x:hidden;
   
 }
 .container2{
@@ -30,7 +29,7 @@ html,body {
 .content{
 	margin:0px;
 }
-.content_last{
+.content{
 	margin:0px;
 }
 .jumbotron{
@@ -44,23 +43,6 @@ html,body {
 #cd{
 	padding:20px;	
 }
-#cd1{
-	padding:20px;	
-}
-#cd2{
-	padding:20px;	
-}
-#cd3{
-	padding:20px;	
-}
-#cd4{
-	padding:20px;	
-}
-#cd5{
-	padding:20px;	
-}
-
-
 
 .row{
 	width:100%;
@@ -101,7 +83,7 @@ color:blue;
 }
 .carousel-item{
 	width:100vw;
-	
+	height:100vh;
 	margin-top:5%;
 }	
 .content_last{
